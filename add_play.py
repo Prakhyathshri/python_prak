@@ -22,7 +22,8 @@ f=5
 g=4.5
 print(f+g)
 
-a1="1Yuva"
+a1="1"
 b1="2"
 print(int(a1)+int(b1))
+print(a1+b1) #This is concatination - Joining two string togther answer will be 12
 
