@@ -10,5 +10,10 @@ a,b = 12,5
 print(floor(a/b))
 print((a//b))
 
+x,y = -12,5
+print((x//y))
+print(floor(x/y))
+
+
 '''Floor will always round off two nearest lesser number or equal number 
 check our the case of negative numbers also'''
