@@ -1,0 +1,6 @@
+grade = ("A","C","D","A","A","A","B","B","A","D","C","B","A","C","A","D","A","B")
+print(grade.count("A"))
+grade2 = list(grade)
+print(type(grade2))
+grade2.sort()
+print(grade2)
