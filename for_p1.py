@@ -1,5 +1,7 @@
 list1 = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100,49)
 
+
+''' This type of finding is LINEAR SEARCH, searching each and every element in order, there are other type of searching also '''
 # for i in list1:
 #     print(i)
 
