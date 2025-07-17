@@ -26,7 +26,21 @@ class Mobile:
         else:
             print("Not enough battery to watch a video for",minutes,"minutes")
 
+    def charge(self, amount):
+        if (amount + self.battery) >= 100:
+            extra_charge = (amount + self.battery) - 100
+            print(extra_charge,"is extra")
+            battery = 100
+            print("Battery full",battery)
+        else:
+            required_charge = 100 - (amount + self.battery)
+            self.battery = (amount + self.battery)
+            print("Battery required is",required_charge)
+            print("Battery remianing is", self.battery)
+
+
 
 m1 = Mobile("MOTO","i2",100)
 m1.make_call(987654321)
 m1.watch_video(10)
+m1.charge(20)

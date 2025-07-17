@@ -1,5 +1,4 @@
 battery =(int(input("Enter remaining battery: ")))
-
 charge =(int(input("Enter charge: ")))
 if (charge+battery) >= 100:
     extra_charge = (charge+battery) - 100
